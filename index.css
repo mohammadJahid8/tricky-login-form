@@ -1,0 +1,42 @@
+.btn {
+  align-items: center;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  display: inline-flex;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  pointer-events: auto;
+}
+.btn-primary {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(16, 163, 127, var(--tw-bg-opacity));
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.form-container {
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  position: relative;
+}
+p {
+  margin-left: 80px;
+}
+.input {
+  margin-left: 80px;
+  padding: 7px 7px 7px 7px;
+}
+#button {
+  margin-top: 20px;
+  position: absolute;
+  left: 150px;
+}
+#button:hover {
+  background: green;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
